@@ -1,3 +1,9 @@
+## BACA DULU BANG
+
+> **Warning**: Sc nya gk support termux. [`Klik disini untuk download sc yg support termux`](https://github.com/zeeone-ofc/Haruka-Md#For-Termux)
+
+-----------------------------------------------------
+
 <p align="center">
 <img src="https://github.com/zeeone-ofc/Haruka-Md/blob/v1/media/Haruka.jpg" alt="ALPHA BOT" width="100"/>
 
@@ -33,37 +39,58 @@
 ---
 
 # Instalasi
-## Heroku Buildpack
-```bash
-heroku/nodejs
-https://github.com/jonathanong/heroku-buildpack-ffmpeg-latest
-https://github.com/clhuang/heroku-buildpack-webp-binaries.git
-```
-## For Termux
-```ts
-apt update && apt upgrade
-pkg install bash nodejs ffmpeg libwebp git mc yarn
-git clone https://github.com/zeeone-ofc/Haruka-Md.git
-cd Haruka-Md
-yarn
-rm -rf session.json
-npm start
-```
+## FOR REPLIT USER
+[![Run on Repl.it](https://repl.it/badge/github/zeeone-ofc/Haruka-Md)](https://repl.it/github/zeeone-ofc/Haruka-Md)
 
-## Edit file
-`./config.json`
-```{
-    "ownerNumber": ["6285342106390@s.whatsapp.net","622150996855@s.whatsapp.net"],
+[`Click Here For Tutorial`](https://youtu.be/jom_scHK09c)<br>
+
+----------
+
+<p align="center">
+  <a href="https://youtu.be/jom_scHK09c"><img src="https://telegra.ph/file/eb8dbe898ed8f9c32f013.jpg" />
+</p>
+
+## FOR RAILWAY USER 
+
+[![Deploy on Railway](https://railway.app/button.svg)](https://railway.app/new/template?template=https%3A%2F%2Fgithub.com%2Fzeeone-ofc%2FAlphabot-Md)
+
+[`Click Here For Tutorial`](https://youtu.be/BqRauxohbLg)<br>
+
+----------
+
+<p align="center">
+  <a href="https://youtu.be/BqRauxohbLg"><img src="https://telegra.ph/file/ba58c4ad1b43bc285f16b.jpg" />
+</p>
+
+## For Termux
+- [Download script MediaFire](https://youtu.be/H28_Yf0rDjE)
+
+<p align="center">
+<a href="https://youtu.be/H28_Yf0rDjE"><img src="https://telegra.ph/file/7ad8863608d7abffdec01.jpg" />
+</p>
+
+## Edit Owner 
+
+<details>
+    <summary> <b>Edit Owner Config.json</b></summary><br/>
+
+```ts
+{
+    "ownerNumber": ["622150996855@s.whatsapp.net","622150996855@s.whatsapp.net"],
     "ownerName": "ᴹᴿ᭄ ZeeoneOfcོ ×፝֟͜×",
     "instagram" : "https://instagram.com/zeeoneofc",
     "botName": "Haruka-Mdོ ",
     "footer": "api.zeeoneofc.xyz",
     "sessionName": "session",
     "pathimg": "./media/Haruka.jpg",
-    "BotKey": "V12",
+    "BotKey": "Gsyt6jRJ",
     "auto_welcomeMsg": true,
     "auto_leaveMsg": true,    
     "autobio": true,
+    "anticall": true,
+    "autorespond": false,
+    "autoblok212": true,
+    "autoread": true,
     "gamewaktu": 90,
     "limitCount": 25,
     "gcount": {
@@ -72,16 +99,6 @@ npm start
     }
 }
 ```
-
-## ```HOW TO DEPLOY```
-
-[`Click Here For Tutorial`](https://youtu.be/SdKHkld2NcI)<br>
-
-----------
-
-<p align="center">
-  <a href="https://youtu.be/SdKHkld2NcI"><img src="https://a.top4top.io/p_2081imvxm1.jpg" />
-</p>
 
 ## Donate
 - [Saweria](https://saweria.co/zeeoneofc)
