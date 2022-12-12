@@ -30,6 +30,7 @@ let session = `./${setting.sessionName}.json`
 //session 
 const { state, saveState } = useSingleFileAuthState(session)
 
+async function startHaruka() {
 const store = makeInMemoryStore({ logger: pino().child({ level: 'silent', stream: 'store' }) })
 
 global.db = JSON.parse(fs.readFileSync('./database/database.json'))
@@ -57,7 +58,6 @@ function title() {
 }
 
 
-async function startHaruka() {
     const haruka = harukaConnect({
         logger: pino({ level: 'silent' }),
         printQRInTerminal: true,
