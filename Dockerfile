@@ -14,6 +14,4 @@ RUN npm install && npm install pm2 -g
 
 COPY . .
 
-EXPOSE 5000
-
 CMD ["npm", "start"]
