@@ -66,7 +66,7 @@
 - [Download script MediaFire](https://youtu.be/9zVZXG-yaMY)
 
 <p align="center">
-<a href="https://youtu.be/9zVZXG-yaMY"><img src="https://telegra.ph/file/10e09b1b2fb2fb76b367d.jpg" />
+<a href="https://youtu.be/9zVZXG-yaMY"><img src="https://telegra.ph/file/dd8feaca22300196ad2e9.jpg" />
 </p>
 
 ## Edit Owner 
