@@ -63,10 +63,10 @@
 </p>
 
 ## For Termux
-- [Download script MediaFire](https://youtu.be/H28_Yf0rDjE)
+- [Download script MediaFire](https://youtu.be/j8V-B3Vqgrs)
 
 <p align="center">
-<a href="https://youtu.be/H28_Yf0rDjE"><img src="https://telegra.ph/file/7ad8863608d7abffdec01.jpg" />
+<a href="https://youtu.be/j8V-B3Vqgrs"><img src="https://telegra.ph/file/5d7f325628d0214ee9452.jpg" />
 </p>
 
 ## Edit Owner 
