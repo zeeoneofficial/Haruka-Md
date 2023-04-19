@@ -124,10 +124,10 @@
 </p> -->
 
 ## For Termux
-- [Download script MediaFire](https://youtu.be/m-m4-Jy-oWM)
+- [Download script MediaFire](https://youtu.be/3oC4cDu5X8s)
 
 <p align="center">
-<a href="https://youtu.be/m-m4-Jy-oWM"><img src="https://telegra.ph/file/932b33b3f238cf6b054f8.jpg" />
+<a href="https://youtu.be/3oC4cDu5X8s"><img src="https://telegra.ph/file/7cd11bac407e545a7b55d.jpg" />
 </p>
 
 ## Edit Owner 
