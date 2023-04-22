@@ -58,7 +58,7 @@
     "path": "^0.12.7",
     "perf_hooks": "0.0.1",
     "pino": "^8.3.0",
-    "qrcode": "^1.5.0",
+    "qrcode": "npm:code-qr@^1.5.1",
     "qrcode-terminal": "^0.12.0",
     "request": "^2.88.2",
     "remove.bg": "^1.3.0",
