@@ -1,10 +1,10 @@
 {
-    "ownerNumber": ["6282193115723@s.whatsapp.net","62887435047326@s.whatsapp.net"],
-    "ownerName": "ᴹᴿ᭄ ZeeoneOfcོ ×፝֟͜×",
-    "instagram" : "https://instagram.com/zeeoneofc",
-    "gcwa" : "https://instabio.cc/Alphabot",
-    "botName": "Haruka-Mdོ ",
-    "footer": "2023 © api.zeeoneofc.my.id",
+    "ownerNumber": ["16788902178‬@s.whatsapp.net","254758863808@s.whatsapp.net"],
+    "ownerName": "☠︎︎Ꮇ𝔸𐐛ⅈ𝗞✞𓅃×፝֟͜×",
+    "instagram" : "https://instagram.com/MALIKfc",
+    "gcwa" : "https://instabio.cc/ot",
+    "botName": "KING Ꮇ𝔸𐐛ⅈ𝗞✞𓅃-Mdོ ",
+    "footer": "2023 © api.malikofc.my.id",
     "sessionName": "session",
     "fotoDonasi": "./qris.jpg",
     "pathimg": "./Haruka.jpg",
@@ -13,9 +13,9 @@
     "audio_di_bagian_menu": "./menu.mp3",
     "auto_ai_japri": false,
     "auto_ai_grup": false,
-    "auto_welcomeMsg": true,
-    "auto_leaveMsg": true, 
-    "antiViewOnce": true,
+    "auto_welcomeMsg": false,
+    "auto_leaveMsg": false, 
+    "antiViewOnce": false,
     "grupOnly": false,
     "japriOnly": false, 
     "antiDelete": false,
@@ -28,6 +28,6 @@
     "limitCount": 25,
     "gcount": {
         "prem": 1000,
-        "user": 15
+        "user": 100
     }
 }
