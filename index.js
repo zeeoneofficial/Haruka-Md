@@ -204,10 +204,10 @@ app.use(express.static(path.join(__dirname, 'views')))
   const { aDelete } = require ("./lib/welcome");
 		aDelete(setting, haruka, anu)
 	})
-	haruka.ev.on("viewOnceMessage", async (anu) => {
+	/*haruka.ev.on("viewOnceMessage", async (anu) => {
 	  const { oneTime } = require ("./lib/welcome");
 		oneTime(setting, haruka, anu)
-	})
+	})*/
 	
 	haruka.ev.process(
 		async (events) => {
@@ -556,7 +556,7 @@ return buffer
        }
 
        haruka.copyNForward = async (jid, message, forceForward = false, options = {}) => {
- /* let vtype
+  let vtype
 	if (options.readViewOnce) {
 		message.message = message.message && message.message.ephemeralMessage && message.message.ephemeralMessage.message ? message.message.ephemeralMessage.message : (message.message || undefined)
 		vtype = Object.keys(message.message.viewOnceMessage.message)[0]
@@ -564,7 +564,7 @@ return buffer
 		delete message.message.viewOnceMessage.message[vtype].viewOnce
 		message.message = {
 			...message.message.viewOnceMessage.message
-	}} */
+	}} 
 
 	let mtype = Object.keys(message.message)[0]
 	let content = await generateForwardMessageContent(message, forceForward)
