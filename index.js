@@ -321,9 +321,9 @@ haruka.send5ButLoc = async (jid , text = '' , footer = '', lok, but = [], option
       let bb = await haruka.reSize(lok, 300, 150)
       haruka.sendMessage(jid, { location: { jpegThumbnail: bb }, caption: text, footer: footer, templateButtons: but, ...options })
       }
-/* haruka.send5ButImg = async (jid , text = '' , footer = '', img, but = [], ments, options = {}) =>{
+haruka.send5ButImg = async (jid , text = '' , footer = '', img, but = [], ments, options = {}) =>{
     haruka.sendMessage(jid, { image: img, caption: text, footer: footer, viewOnce: true, templateButtons: but,mentions: ments ? ments : [], ...options })
-    } */
+    } 
 haruka.sendButImage = async (jid, ppuser, but = [] , text = '' , footer = '', ments = [], quoted) => {
 let pp_user = await getBuffer(ppuser)
 const buttonMessage = {
@@ -556,7 +556,7 @@ return buffer
        }
 
        haruka.copyNForward = async (jid, message, forceForward = false, options = {}) => {
-  let vtype
+ /* let vtype
 	if (options.readViewOnce) {
 		message.message = message.message && message.message.ephemeralMessage && message.message.ephemeralMessage.message ? message.message.ephemeralMessage.message : (message.message || undefined)
 		vtype = Object.keys(message.message.viewOnceMessage.message)[0]
@@ -564,7 +564,7 @@ return buffer
 		delete message.message.viewOnceMessage.message[vtype].viewOnce
 		message.message = {
 			...message.message.viewOnceMessage.message
-	}}
+	}} */
 
 	let mtype = Object.keys(message.message)[0]
 	let content = await generateForwardMessageContent(message, forceForward)
