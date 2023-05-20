@@ -15,7 +15,7 @@
     "auto_ai_grup": false,
     "auto_welcomeMsg": true,
     "auto_leaveMsg": true, 
-    "antiViewOnce": true,
+    "antiViewOnce": false,
     "grupOnly": false,
     "japriOnly": false, 
     "antiDelete": false,
