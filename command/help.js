@@ -15,7 +15,7 @@ function toCommas(x) {
 exports.allMenu = (role, ucapanWaktu, pushname, mundur, upload, download, ownerName, botName, jam, tanggal, runtime, isCreator, isPremium, sender, limitCount, limit, gcount, glimit, balance, prefix) => {
     return`${ucapanWaktu} ${pushname !== undefined ? pushname : 'Kak'}
 
-Hitung Mundur Idul Fitri 🌙 
+Cuenta regresiva de Eid 🌙 
 ${mundur}
 
 *STATISTICS*
@@ -23,16 +23,16 @@ ${mundur}
  • Downloads : ${download}
 
 *BOT INFO*
- • Creator : ${ownerName}
+ • Creator  : ©Ⓥⓘⓖⓖⓞ
  • Bot Name : ${botName}
  • Time : ${jam}
  • Date : ${tanggal(new Date())}
  • Runtime : ${runtime(process.uptime())}
 
 *USER INFO*
- • Name : ${pushname !== undefined ? pushname : '-'}
+ • Name   : ${pushname !== undefined ? pushname : '-'}
  • Status : ${isCreator ? 'Owner' : isPremium ? 'Premium' : 'Free'}
- • Limit : ${isCreator ? 'Unlimited' : isPremium ? 'Unlimited' : getLimit(sender, limitCount, limit)}
+ • Limit  : ${isCreator ? 'Unlimited' : isPremium ? 'Unlimited' : getLimit(sender, limitCount, limit)}
  • Limit Game : ${isCreator ? 'Unlimited' : cekGLimit(sender, gcount, glimit)}
  • Balance : ${getBalance(sender, balance)}
  • Role : ${role}
@@ -293,64 +293,6 @@ ${mundur}
  • ${prefix}santuy
  • ${prefix}ukhty
  • ${prefix}syifa${petik}
-
-*NSFW MENU*${petik}
- • ${prefix}baka
- • ${prefix}smug
- • ${prefix}neko_sfw
- • ${prefix}hentai_gif
- • ${prefix}spank
- • ${prefix}blowjob
- • ${prefix}cumarts
- • ${prefix}eroyuri
- • ${prefix}eroneko
- • ${prefix}erokemonomimi
- • ${prefix}erokitsune
- • ${prefix}ero
- • ${prefix}feet
- • ${prefix}erofeet
- • ${prefix}feetgif
- • ${prefix}femdom
- • ${prefix}futanari
- • ${prefix}hentai
- • ${prefix}holoero
- • ${prefix}holo
- • ${prefix}keta
- • ${prefix}kitsune
- • ${prefix}kemonomimi
- • ${prefix}pussyart
- • ${prefix}pussywankgif
- • ${prefix}girl_solo
- • ${prefix}girl_solo_gif
- • ${prefix}tits
- • ${prefix}trap
- • ${prefix}yuri
- • ${prefix}avatar2
- • ${prefix}anal
- • ${prefix}bj
- • ${prefix}boobs
- • ${prefix}classic
- • ${prefix}cumsluts
- • ${prefix}kuni
- • ${prefix}lesbian
- • ${prefix}neko
- • ${prefix}neko_gif
- • ${prefix}ahegao
- • ${prefix}bdsm
- • ${prefix}cuckold
- • ${prefix}cum
- • ${prefix}foot
- • ${prefix}gangbang
- • ${prefix}glasses
- • ${prefix}jahy
- • ${prefix}masturbation
- • ${prefix}nsfw_neko
- • ${prefix}orgy
- • ${prefix}panties
- • ${prefix}tentacles
- • ${prefix}thighs
- • ${prefix}zettai${petik}
-
 
 *TEXTPRO MENU*${petik}
  • ${prefix}halloween2
