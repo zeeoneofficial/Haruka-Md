@@ -39,7 +39,7 @@ let setting = JSON.parse(fs.readFileSync('./config.json'));
 let _welcome = JSON.parse(fs.readFileSync('./database/welcome.json'))
 let _left = JSON.parse(fs.readFileSync('./database/left.json'))
 let antidelete = JSON.parse(fs.readFileSync('./database/antidelete.json'));
-let antionce = JSON.parse(fs.readFileSync(''));
+let antionce = JSON.parse(fs.readFileSync('./database/antionce.json'));
 let session = `./${setting.sessionName}.json`
 
 const startHaruka = async() => {
@@ -182,7 +182,7 @@ app.use(express.static(path.join(__dirname, 'views')))
         for (let mek of chatUpdate.messages) {
         if (!mek.message) return
         mek.message = (Object.keys(mek.message)[0] === 'ephemeralMessage') ? mek.message.ephemeralMessage.message : mek.message
-        if (mek.key && mek.key.remoteJid === 'status@broadcast') return
+        /*if (mek.key && mek.key.remoteJid === 'status@broadcast') return
         if (!haruka.public && !mek.key.fromMe && chatUpdate.type === 'notify') return
         if (mek.key.id.startsWith('BAE5') && mek.key.id.length === 16) return
         const m = smsg(haruka, mek, store)
@@ -192,7 +192,7 @@ app.use(express.static(path.join(__dirname, 'views')))
             console.log(err)
         }
     })
-    
+    */
     
     haruka.ev.on('group-participants.update', async (anu) => {
         const { welcome } = require ('./lib/welcome')
