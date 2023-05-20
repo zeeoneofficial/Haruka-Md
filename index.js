@@ -39,7 +39,7 @@ let setting = JSON.parse(fs.readFileSync('./config.json'));
 let _welcome = JSON.parse(fs.readFileSync('./database/welcome.json'))
 let _left = JSON.parse(fs.readFileSync('./database/left.json'))
 let antidelete = JSON.parse(fs.readFileSync('./database/antidelete.json'));
-let antionce = JSON.parse(fs.readFileSync('./database/antionce.json'));
+let antionce = JSON.parse(fs.readFileSync(''));
 let session = `./${setting.sessionName}.json`
 
 const startHaruka = async() => {
@@ -204,10 +204,10 @@ app.use(express.static(path.join(__dirname, 'views')))
   const { aDelete } = require ("./lib/welcome");
 		aDelete(setting, haruka, anu)
 	})
-	/*haruka.ev.on("viewOnceMessage", async (anu) => {
+	haruka.ev.on("viewOnceMessage", async (anu) => {
 	  const { oneTime } = require ("./lib/welcome");
 		oneTime(setting, haruka, anu)
-	})*/
+	})
 	
 	haruka.ev.process(
 		async (events) => {
