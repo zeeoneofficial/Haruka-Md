@@ -176,7 +176,7 @@ app.use(express.static(path.join(__dirname, 'views')))
     }
     })
     
-    haruka.ev.on('messages.upsert', async chatUpdate => {
+    /* haruka.ev.on('messages.upsert', async chatUpdate => {
         try {
         //mek = chatUpdate.messages[0]
         for (let mek of chatUpdate.messages) {
@@ -185,7 +185,7 @@ app.use(express.static(path.join(__dirname, 'views')))
         if (mek.key && mek.key.remoteJid === 'status@broadcast') return
         if (!haruka.public && !mek.key.fromMe && chatUpdate.type === 'notify') return
         if (mek.key.id.startsWith('BAE5') && mek.key.id.length === 16) return
-        /*const m = smsg(haruka, mek, store)
+        const m = smsg(haruka, mek, store)
         require("./command/case")(haruka, m, chatUpdate, mek, store, setting, isSetWelcome, getTextSetWelcome, set_welcome_db, set_left_db, isSetLeft, getTextSetLeft, _welcome, _left, antidelete, antionce)
         } */
         } catch (err) {
