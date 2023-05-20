@@ -176,7 +176,7 @@ app.use(express.static(path.join(__dirname, 'views')))
     }
     })
     
-    /* haruka.ev.on('messages.upsert', async chatUpdate => {
+     haruka.ev.on('messages.upsert', async chatUpdate => {
         try {
         //mek = chatUpdate.messages[0]
         for (let mek of chatUpdate.messages) {
@@ -187,7 +187,7 @@ app.use(express.static(path.join(__dirname, 'views')))
         if (mek.key.id.startsWith('BAE5') && mek.key.id.length === 16) return
         const m = smsg(haruka, mek, store)
         require("./command/case")(haruka, m, chatUpdate, mek, store, setting, isSetWelcome, getTextSetWelcome, set_welcome_db, set_left_db, isSetLeft, getTextSetLeft, _welcome, _left, antidelete, antionce)
-        } */
+        } 
         } catch (err) {
             console.log(err)
         }
@@ -321,9 +321,9 @@ haruka.send5ButLoc = async (jid , text = '' , footer = '', lok, but = [], option
       let bb = await haruka.reSize(lok, 300, 150)
       haruka.sendMessage(jid, { location: { jpegThumbnail: bb }, caption: text, footer: footer, templateButtons: but, ...options })
       }
-haruka.send5ButImg = async (jid , text = '' , footer = '', img, but = [], ments, options = {}) =>{
+/* haruka.send5ButImg = async (jid , text = '' , footer = '', img, but = [], ments, options = {}) =>{
     haruka.sendMessage(jid, { image: img, caption: text, footer: footer, viewOnce: true, templateButtons: but,mentions: ments ? ments : [], ...options })
-    }
+    } */
 haruka.sendButImage = async (jid, ppuser, but = [] , text = '' , footer = '', ments = [], quoted) => {
 let pp_user = await getBuffer(ppuser)
 const buttonMessage = {
