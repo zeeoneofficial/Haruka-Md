@@ -14,16 +14,9 @@ function toCommas(x) {
 
 exports.allMenu = (role, ucapanWaktu, pushname, mundur, upload, download, ownerName, botName, jam, tanggal, runtime, isCreator, isPremium, sender, limitCount, limit, gcount, glimit, balance, prefix) => {
     return`${ucapanWaktu} ${pushname !== undefined ? pushname : 'Kak'}
-
-Hitung Mundur Idul Fitri 🌙 
-${mundur}
-
-*STATISTICS*
- • Upload : ${upload}
- • Downloads : ${download}
-
+ 
 *BOT INFO*
- • Creator : ${ownerName}
+ • Creator : VIGGO
  • Bot Name : ${botName}
  • Time : ${jam}
  • Date : ${tanggal(new Date())}
@@ -36,7 +29,6 @@ ${mundur}
  • Limit Game : ${isCreator ? 'Unlimited' : cekGLimit(sender, gcount, glimit)}
  • Balance : ${getBalance(sender, balance)}
  • Role : ${role}
- 
  
 *MAIN MENU*${petik}
  • ${prefix}menu
@@ -105,37 +97,6 @@ ${mundur}
  • ${prefix}setproses
  • proses < reply chat >
  • done < reply chat >${petik}
-
-*RPG GAMES*${petik}
- • ${prefix}inventory
- • ${prefix}mining
- • ${prefix}buy 
- • ${prefix}sell
- • ${prefix}heal
- • ${prefix}hunt
- • ${prefix}adventure
- • ${prefix}luckyday
- • ${prefix}killslime
- • ${prefix}killgoblin
- • ${prefix}killdevil
- • ${prefix}killbehemoth
- • ${prefix}killdemon
- • ${prefix}killdemonking
- • ${prefix}joinrpg
- • ${prefix}sellikan
- • ${prefix}sellbesi
- • ${prefix}sellemas
- • ${prefix}jelajah
- • ${prefix}mancing
- • ${prefix}jualikan
- • ${prefix}jualcoal
- • ${prefix}lebur
- • ${prefix}jualstone
- • ${prefix}jualingot
- • ${prefix}jualkayu
- • ${prefix}nebang
- • ${prefix}goplanet
- • ${prefix}jualbahankimia${petik}
 
 *DOWNLOADS MENU*${petik}
  • ${prefix}play
@@ -293,64 +254,6 @@ ${mundur}
  • ${prefix}santuy
  • ${prefix}ukhty
  • ${prefix}syifa${petik}
-
-*NSFW MENU*${petik}
- • ${prefix}baka
- • ${prefix}smug
- • ${prefix}neko_sfw
- • ${prefix}hentai_gif
- • ${prefix}spank
- • ${prefix}blowjob
- • ${prefix}cumarts
- • ${prefix}eroyuri
- • ${prefix}eroneko
- • ${prefix}erokemonomimi
- • ${prefix}erokitsune
- • ${prefix}ero
- • ${prefix}feet
- • ${prefix}erofeet
- • ${prefix}feetgif
- • ${prefix}femdom
- • ${prefix}futanari
- • ${prefix}hentai
- • ${prefix}holoero
- • ${prefix}holo
- • ${prefix}keta
- • ${prefix}kitsune
- • ${prefix}kemonomimi
- • ${prefix}pussyart
- • ${prefix}pussywankgif
- • ${prefix}girl_solo
- • ${prefix}girl_solo_gif
- • ${prefix}tits
- • ${prefix}trap
- • ${prefix}yuri
- • ${prefix}avatar2
- • ${prefix}anal
- • ${prefix}bj
- • ${prefix}boobs
- • ${prefix}classic
- • ${prefix}cumsluts
- • ${prefix}kuni
- • ${prefix}lesbian
- • ${prefix}neko
- • ${prefix}neko_gif
- • ${prefix}ahegao
- • ${prefix}bdsm
- • ${prefix}cuckold
- • ${prefix}cum
- • ${prefix}foot
- • ${prefix}gangbang
- • ${prefix}glasses
- • ${prefix}jahy
- • ${prefix}masturbation
- • ${prefix}nsfw_neko
- • ${prefix}orgy
- • ${prefix}panties
- • ${prefix}tentacles
- • ${prefix}thighs
- • ${prefix}zettai${petik}
-
 
 *TEXTPRO MENU*${petik}
  • ${prefix}halloween2
