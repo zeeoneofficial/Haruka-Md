@@ -11,7 +11,7 @@
     "BotKey": "kaniel@12345",
     "OpenAIKey": "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",
     "audio_di_bagian_menu": "./menu.mp3",
-    "auto_ai_japri": true,
+    "auto_ai_japri": false,
     "auto_ai_grup": false,
     "auto_welcomeMsg": true,
     "auto_leaveMsg": true, 
