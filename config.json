@@ -1,6 +1,6 @@
 {
-    "ownerNumber": ["6282193115723@s.whatsapp.net","62887435047326@s.whatsapp.net"],
-    "ownerName": "ᴹᴿ᭄ ZeeoneOfcོ ×፝֟͜×",
+    "ownerNumber": ["94767687563@s.whatsapp.net","94715574230@s.whatsapp.net"
+    "ownerName": "ᴹᴿོDARK PADA ×፝֟͜×",
     "instagram" : "https://instagram.com/zeeoneofc",
     "gcwa" : "https://instabio.cc/Alphabot",
     "botName": "Haruka-Mdོ ",
@@ -16,7 +16,7 @@
     "auto_welcomeMsg": true,
     "auto_leaveMsg": true, 
     "antiViewOnce": true,
-    "grupOnly": false,
+    "grupOnly": true,
     "japriOnly": false, 
     "antiDelete": false,
     "autobio": false,
