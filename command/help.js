@@ -13,23 +13,30 @@ function toCommas(x) {
 }
 
 exports.allMenu = (role, ucapanWaktu, pushname, mundur, upload, download, ownerName, botName, jam, tanggal, runtime, isCreator, isPremium, sender, limitCount, limit, gcount, glimit, balance, prefix) => {
-    return`${ucapanWaktu} ${pushname !== undefined ? pushname : 'Kak'}
+    return`
 
-Hitung Mundur Idul Fitri 🌙 
-${mundur}
+*-----------------------*
+ Hallo Kak 😉
+ Bot Whatsapp ini berjalan dengan nodeJs atau javascript.
+ 
+ Contribusy:
+ - ZeeonneOfc 
+ - Romli Suhanda
+ - Ipul Fachri
+*-----------------------*
 
-*STATISTICS*
+*[ STATISTICS ]*
  • Upload : ${upload}
  • Downloads : ${download}
 
-*BOT INFO*
+*[ BOT INFO ]*
  • Creator : ${ownerName}
  • Bot Name : ${botName}
  • Time : ${jam}
  • Date : ${tanggal(new Date())}
  • Runtime : ${runtime(process.uptime())}
 
-*USER INFO*
+*[ USER INFO ]*
  • Name : ${pushname !== undefined ? pushname : '-'}
  • Status : ${isCreator ? 'Owner' : isPremium ? 'Premium' : 'Free'}
  • Limit : ${isCreator ? 'Unlimited' : isPremium ? 'Unlimited' : getLimit(sender, limitCount, limit)}
@@ -38,7 +45,7 @@ ${mundur}
  • Role : ${role}
  
  
-*MAIN MENU*${petik}
+*[ MAIN MENU ]*
  • ${prefix}menu
  • ${prefix}infobot
  • ${prefix}donate
@@ -51,9 +58,9 @@ ${mundur}
  • ${prefix}listsewa
  • ${prefix}speed
  • ${prefix}runtime
- • ${prefix}listbahasa${petik}
+ • ${prefix}listbahasa
 
-*CONVERTER/TOOLS*${petik} 
+*[ CONVERTER/TOOLS ]*
  • ${prefix}sticker
  • ${prefix}qc
  • ${prefix}xquote
@@ -73,9 +80,9 @@ ${mundur}
  • ${prefix}foliokiri
  • ${prefix}foliokanan
  • ${prefix}say
- • ${prefix}translate${petik}
+ • ${prefix}translate
 
-*ANONYMOUS CHATS*${petik}
+*[ ANONYMOUS CHATS ]*
  • ${prefix}menfess
  • ${prefix}confess
  • ${prefix}balasmenfess
@@ -85,9 +92,9 @@ ${mundur}
  • ${prefix}start
  • ${prefix}next
  • ${prefix}stop
- • ${prefix}sendprofile${petik}
+ • ${prefix}sendprofile
 
-*STORE MENU*${petik}
+*[ STORE MENU ]*
  • ${prefix}list
  • ${prefix}addlist
  • ${prefix}dellist
@@ -104,9 +111,9 @@ ${mundur}
  • ${prefix}changeproses
  • ${prefix}setproses
  • proses < reply chat >
- • done < reply chat >${petik}
+ • done < reply chat >
 
-*RPG GAMES*${petik}
+*[ RPG GAMES ]*
  • ${prefix}inventory
  • ${prefix}mining
  • ${prefix}buy 
@@ -135,9 +142,9 @@ ${mundur}
  • ${prefix}jualkayu
  • ${prefix}nebang
  • ${prefix}goplanet
- • ${prefix}jualbahankimia${petik}
+ • ${prefix}jualbahankimia
 
-*DOWNLOADS MENU*${petik}
+*[ DOWNLOADS MENU ]*
  • ${prefix}play
  • ${prefix}ytmp3
  • ${prefix}ytmp4
@@ -149,9 +156,9 @@ ${mundur}
  • ${prefix}tiktoknowm
  • ${prefix}tiktokaudio
  • ${prefix}mediafire
- • ${prefix}gitclone${petik}
+ • ${prefix}gitclone
 
-*GROUP MENU*${petik}
+*[ GROUP MENU ]*
  • ${prefix}autoaigc
  • ${prefix}afk
  • ${prefix}welcome
@@ -186,9 +193,9 @@ ${mundur}
  • ${prefix}demote
  • ${prefix}revoke
  • ${prefix}hidetag
- • ${prefix}checksewa${petik}
+ • ${prefix}checksewa
 
-*GAME MENU*${petik}
+*[ GAME MENU ]*
  • ${prefix}tebakgambar
  • ${prefix}tebakkata
  • ${prefix}tebakbendera
@@ -202,30 +209,25 @@ ${mundur}
  • ${prefix}tictactoe
  • ${prefix}delttt
  • ${prefix}casino
- • ${prefix}delcasino${petik}
+ • ${prefix}delcasino
 
-*SEARCH MENU*${petik}
+*[ SEARCH MENU ]*
  • ${prefix}lirik
  • ${prefix}grupwa
  • ${prefix}pinterest
- • ${prefix}ytsearch${petik}
-
-*RANDOM MENU*${petik}
- • ${prefix}cecan
- • ${prefix}cogan
- • ${prefix}waifu${petik}
+ • ${prefix}ytsearch
 
 
-*BALANCE MENU*${petik}
+*[ BALANCE MENU ]*
  • ${prefix}topglobal
  • ${prefix}toplocal
  • ${prefix}buylimit
  • ${prefix}buyglimit
  • ${prefix}transfer
  • ${prefix}limit
- • ${prefix}balance${petik}
+ • ${prefix}balance
 
-*STORAGE*${petik}
+*[ STORAGE ]*
  • ${prefix}addstik
  • ${prefix}addvn
  • ${prefix}addimg
@@ -233,18 +235,18 @@ ${mundur}
  • ${prefix}liststik
  • ${prefix}listvn
  • ${prefix}listimg
- • ${prefix}listvid${petik}
+ • ${prefix}listvid
  
-*BAILEYS*${petik}
+*[ BAILEYS ]*
  • ${prefix}fitnah
  • ${prefix}nowa
  • ${prefix}getquoted
  • ${prefix}fakehidetag
  • ${prefix}react
  • ${prefix}setcmd
- • ${prefix}delcmd${petik}
+ • ${prefix}delcmd
 
-*OWNERS MENU*${petik}
+*[ OWNERS MENU ]*
  • ${prefix}autoaipc
  • ${prefix}autoread
  • ${prefix}autobio
@@ -268,9 +270,9 @@ ${mundur}
  • ${prefix}addpremium
  • ${prefix}delpremium
  • ${prefix}addsewa
- • ${prefix}delsewa${petik}
+ • ${prefix}delsewa
 
-*ASUPAN MENU*${petik}
+*[ ASUPAN MENU ]*
  • ${prefix}chika
  • ${prefix}delvira
  • ${prefix}ayu
@@ -292,247 +294,10 @@ ${mundur}
  • ${prefix}geayubi
  • ${prefix}santuy
  • ${prefix}ukhty
- • ${prefix}syifa${petik}
-
-*NSFW MENU*${petik}
- • ${prefix}baka
- • ${prefix}smug
- • ${prefix}neko_sfw
- • ${prefix}hentai_gif
- • ${prefix}spank
- • ${prefix}blowjob
- • ${prefix}cumarts
- • ${prefix}eroyuri
- • ${prefix}eroneko
- • ${prefix}erokemonomimi
- • ${prefix}erokitsune
- • ${prefix}ero
- • ${prefix}feet
- • ${prefix}erofeet
- • ${prefix}feetgif
- • ${prefix}femdom
- • ${prefix}futanari
- • ${prefix}hentai
- • ${prefix}holoero
- • ${prefix}holo
- • ${prefix}keta
- • ${prefix}kitsune
- • ${prefix}kemonomimi
- • ${prefix}pussyart
- • ${prefix}pussywankgif
- • ${prefix}girl_solo
- • ${prefix}girl_solo_gif
- • ${prefix}tits
- • ${prefix}trap
- • ${prefix}yuri
- • ${prefix}avatar2
- • ${prefix}anal
- • ${prefix}bj
- • ${prefix}boobs
- • ${prefix}classic
- • ${prefix}cumsluts
- • ${prefix}kuni
- • ${prefix}lesbian
- • ${prefix}neko
- • ${prefix}neko_gif
- • ${prefix}ahegao
- • ${prefix}bdsm
- • ${prefix}cuckold
- • ${prefix}cum
- • ${prefix}foot
- • ${prefix}gangbang
- • ${prefix}glasses
- • ${prefix}jahy
- • ${prefix}masturbation
- • ${prefix}nsfw_neko
- • ${prefix}orgy
- • ${prefix}panties
- • ${prefix}tentacles
- • ${prefix}thighs
- • ${prefix}zettai${petik}
+ • ${prefix}syifa
 
 
-*TEXTPRO MENU*${petik}
- • ${prefix}halloween2
- • ${prefix}horror
- • ${prefix}game8bit
- • ${prefix}layered
- • ${prefix}glitch2
- • ${prefix}coolg
- • ${prefix}coolwg
- • ${prefix}realistic
- • ${prefix}space3d
- • ${prefix}gtiktok
- • ${prefix}stone
- • ${prefix}marvel
- • ${prefix}marvel2
- • ${prefix}pornhub
- • ${prefix}avengers
- • ${prefix}metalr
- • ${prefix}metalg
- • ${prefix}metalg2
- • ${prefix}halloween2
- • ${prefix}lion
- • ${prefix}wolf_bw
- • ${prefix}wolf_g
- • ${prefix}ninja
- • ${prefix}3dsteel
- • ${prefix}horror2
- • ${prefix}lava
- • ${prefix}bagel
- • ${prefix}blackpink
- • ${prefix}rainbow2
- • ${prefix}water_pipe
- • ${prefix}halloween
- • ${prefix}sketch
- • ${prefix}sircuit
- • ${prefix}discovery
- • ${prefix}metallic2
- • ${prefix}fiction
- • ${prefix}demon
- • ${prefix}transformer
- • ${prefix}berry
- • ${prefix}thunder
- • ${prefix}magma
- • ${prefix}3dstone
- • ${prefix}neon
- • ${prefix}glitch
- • ${prefix}harry_potter
- • ${prefix}embossed
- • ${prefix}broken
- • ${prefix}papercut
- • ${prefix}gradient
- • ${prefix}glossy
- • ${prefix}watercolor
- • ${prefix}multicolor
- • ${prefix}neon_devil
- • ${prefix}underwater
- • ${prefix}bear
- • ${prefix}wonderfulg
- • ${prefix}christmas
- • ${prefix}neon_light
- • ${prefix}snow
- • ${prefix}cloudsky
- • ${prefix}luxury2
- • ${prefix}gradient2
- • ${prefix}summer
- • ${prefix}writing
- • ${prefix}engraved
- • ${prefix}summery
- • ${prefix}3dglue
- • ${prefix}metaldark
- • ${prefix}neonlight
- • ${prefix}oscar
- • ${prefix}minion
- • ${prefix}holographic
- • ${prefix}purple
- • ${prefix}glossyb
- • ${prefix}deluxe2
- • ${prefix}glossyc
- • ${prefix}fabric
- • ${prefix}neonc
- • ${prefix}newyear
- • ${prefix}newyear2
- • ${prefix}metals
- • ${prefix}xmas
- • ${prefix}blood
- • ${prefix}darkg
- • ${prefix}joker
- • ${prefix}wicker
- • ${prefix}natural
- • ${prefix}firework
- • ${prefix}skeleton
- • ${prefix}balloon
- • ${prefix}balloon2
- • ${prefix}balloon3
- • ${prefix}balloon4
- • ${prefix}balloon5
- • ${prefix}balloon6
- • ${prefix}balloon7
- • ${prefix}steel
- • ${prefix}gloss
- • ${prefix}denim
- • ${prefix}decorate
- • ${prefix}decorate2
- • ${prefix}peridot
- • ${prefix}rock
- • ${prefix}glass
- • ${prefix}glass2
- • ${prefix}glass3
- • ${prefix}glass4
- • ${prefix}glass5
- • ${prefix}glass6
- • ${prefix}glass7
- • ${prefix}glass8
- • ${prefix}captain_as2
- • ${prefix}robot
- • ${prefix}equalizer
- • ${prefix}toxic
- • ${prefix}sparkling
- • ${prefix}sparkling2
- • ${prefix}sparkling3
- • ${prefix}sparkling4
- • ${prefix}sparkling5
- • ${prefix}sparkling6
- • ${prefix}sparkling7
- • ${prefix}decorative
- • ${prefix}chocolate
- • ${prefix}strawberry
- • ${prefix}koifish
- • ${prefix}bread
- • ${prefix}matrix
- • ${prefix}blood2
- • ${prefix}neonligth2
- • ${prefix}thunder2
- • ${prefix}3dbox
- • ${prefix}neon2
- • ${prefix}roadw
- • ${prefix}bokeh
- • ${prefix}gneon
- • ${prefix}advanced
- • ${prefix}dropwater
- • ${prefix}wall
- • ${prefix}chrismast
- • ${prefix}honey
- • ${prefix}drug
- • ${prefix}marble
- • ${prefix}marble2
- • ${prefix}ice
- • ${prefix}juice
- • ${prefix}rusty
- • ${prefix}abstra
- • ${prefix}biscuit
- • ${prefix}wood
- • ${prefix}scifi
- • ${prefix}metalr
- • ${prefix}purpleg
- • ${prefix}shiny 
- • ${prefix}jewelry
- • ${prefix}jewelry2
- • ${prefix}jewelry3
- • ${prefix}jewelry4
- • ${prefix}jewelry5
- • ${prefix}jewelry6
- • ${prefix}jewelry7
- • ${prefix}jewelry8
- • ${prefix}metalh
- • ${prefix}golden
- • ${prefix}glitter
- • ${prefix}glitter2
- • ${prefix}glitter3
- • ${prefix}glitter4
- • ${prefix}glitter5
- • ${prefix}glitter6
- • ${prefix}glitter7
- • ${prefix}metale
- • ${prefix}carbon
- • ${prefix}candy
- • ${prefix}metalb
- • ${prefix}gemb
- • ${prefix}3dchrome
- • ${prefix}metalb2
- • ${prefix}metalg
- • ${prefix}metalg${petik}
+
 `
 }
 
@@ -541,4 +306,6 @@ exports.donate = (pushname, ownerNumber) => {
 wa.me/${ownerNumber} (Owner)`
 }
 
-exports.sewanya = `Untuk List Sewa ubah sendiri di folder command, file help.js 👌 baris ke 521`
+exports.sewanya = `Untuk List Sewa ubah sendiri di folder command, file help.js 👌 baris ke 521
+`
+}
