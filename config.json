@@ -15,7 +15,6 @@
     "auto_ai_grup": false,
     "auto_welcomeMsg": true,
     "auto_leaveMsg": true,
-    "wapresence_recording": true,
     "antiViewOnce": true,
     "grupOnly": false,
     "japriOnly": false, 
