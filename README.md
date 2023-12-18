@@ -137,14 +137,14 @@
 
 ```ts
 {
-    "ownerNumber": ["622150996855@s.whatsapp.net","622150996855@s.whatsapp.net"],
-    "ownerName": "ᴹᴿ᭄ ZeeoneOfcོ ×፝֟͜×",
+    "ownerNumber": ["6281312443975@s.whatsapp.net","622150996855@s.whatsapp.net"],
+    "ownerName": "Xinot",
     "instagram" : "https://instagram.com/zeeoneofc",
-    "botName": "Haruka-Mdོ ",
+    "botName": "Onii-chan Bot",
     "footer": "api.zeeoneofc.xyz",
     "sessionName": "session",
     "pathimg": "./media/Haruka.jpg",
-    "BotKey": "Gsyt6jRJ",
+    "BotKey": "wmmLEYjaUObZYmY",
     "auto_welcomeMsg": true,
     "auto_leaveMsg": true,    
     "autobio": true,
